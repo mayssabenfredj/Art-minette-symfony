@@ -1,0 +1,70 @@
+index:
+  path: /
+  controller: App\Controller\IndexController::index
+about:
+  path: /about
+  controller: App\Controller\AboutController::app_about
+
+list/prod:
+  path: /list_prod
+  controller: App\Controller\AboutController::app_list/prod
+
+cart:
+  path: /cart
+  controller: App\Controller\AboutController::app_cart
+
+cartadd:
+  path: /cart/add/{id}
+  controller: App\Controller\AboutController::cart_add
+
+cartremove:
+  path: /cart/remove/{id}
+  controller: App\Controller\AboutController::cart_remove
+
+cartremoveall:
+  path: /cart/remove
+  controller: App\Controller\AboutController::cart_removeall
+
+
+
+appcategorie:
+  path: /categorie
+  controller: App\Controller\AboutController::app_categorie
+
+appcontact:
+  path: /contact
+  controller: App\Controller\AboutController::app_contact
+
+appdetail:
+  path: /detail/{id}
+  controller: App\Controller\AboutController::app_detail
+
+appproduit:
+  path: /produit
+  controller: App\Controller\AboutController::app_produit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
